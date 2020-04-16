@@ -2,7 +2,7 @@
 
 ATSS-EfficientDet ([ATSS](https://arxiv.org/pdf/1912.02424.pdf) built on top of [EfficientDet](https://arxiv.org/pdf/1911.09070.pdf)) ```outperforms``` the original EfficientDet.
 
-This repository is folked from [mmdetection](https://github.com/open-mmlab/mmdetection), implemented in [PyTorch](https://pytorch.org/), with the [trained weights](#Comparison).
+This repository is folked from [mmdetection](https://github.com/open-mmlab/mmdetection), implemented in [PyTorch](https://pytorch.org/).
 
 ## Introduction
 
