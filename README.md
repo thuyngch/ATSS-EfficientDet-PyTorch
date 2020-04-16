@@ -7,8 +7,8 @@ This repository is folked from [mmdetection](https://github.com/open-mmlab/mmdet
 ## Introduction
 
 <p align="center">
-  <img src="demo/atss_effdet_d0/demo.jpg" height="300" alt="accessibility text">
-  <img src="demo/atss_effdet_d0/img1.jpg" height="300" alt="accessibility text">
+  <img src="demo/atss_effdet_d0/demo.jpg" height="250" alt="accessibility text">
+  <img src="demo/atss_effdet_d0/img1.jpg" height="250" alt="accessibility text">
   <br>
   <em>Demo images predicted by ATSS-EfficientDet-D0</em>
 </p>
