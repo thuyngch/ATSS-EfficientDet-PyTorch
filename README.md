@@ -37,6 +37,19 @@ See more demo images in [demo/atss_effdet_d0](demo/atss_effdet_d0)
 Please refer to the official guildeline of [mmdetection](https://github.com/open-mmlab/mmdetection) in [INSTALL.md](docs/INSTALL.md) for installation and dataset preparation.
 
 
+## Training and testing
+
+  - To train model:
+  ```
+  scripts/train_coco.sh
+  ```
+
+  - To test model:
+  ```
+  scripts/test_coco.sh
+  ```
+
+
 ## References
 
 * Two papers:
