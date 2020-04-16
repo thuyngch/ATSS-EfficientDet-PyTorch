@@ -29,7 +29,7 @@ See more demo images in [demo/atss_effdet_d0](demo/atss_effdet_d0)
 
 |         Model        | Params (M) | FLOPs (G) | COCO-val mAP | Original COCO-val mAP |
 |:--------------------:|:----------:|:---------:|:------------:|:---------------------:|
-| ATSS-EfficientDet-D0 |    3.83    |    2.32   |     33.8     |          33.5         |
+| [ATSS-EfficientDet-D0](configs/effdet/atss_effdet_d0.py) |    3.83    |    2.32   |     33.8     |          33.5         |
 
 
 ## Installation
