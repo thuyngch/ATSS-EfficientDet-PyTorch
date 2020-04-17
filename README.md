@@ -1,8 +1,14 @@
 # ATSS-EfficientDet-PyTorch
 
-ATSS-EfficientDet ([ATSS](https://arxiv.org/pdf/1912.02424.pdf) built on top of [EfficientDet](https://arxiv.org/pdf/1911.09070.pdf)) ```outperforms``` the original EfficientDet.
+ATSS-EfficientDet ([ATSS](https://arxiv.org/pdf/1912.02424.pdf) built on top of [EfficientDet](https://arxiv.org/pdf/1911.09070.pdf)) ```outperforms``` the original EfficientDet. Weights are released.
 
 This repository is folked from [mmdetection](https://github.com/open-mmlab/mmdetection), implemented in [PyTorch](https://pytorch.org/).
+
+
+## Change log
+
+- 2020/04/17: Release checkpoint of ATSS-EfficientDet-D0 (COCO-val mAP=33.8). Add config file of ATSS-EfficientDet-D1.
+
 
 ## Introduction
 
@@ -27,9 +33,10 @@ See more demo images in [demo/atss_effdet_d0](demo/atss_effdet_d0)
 
 ## Comparison
 
-|         Model        | Params (M) | FLOPs (G) | COCO-val mAP | Original COCO-val mAP |
-|:--------------------:|:----------:|:---------:|:------------:|:---------------------:|
-| [ATSS-EfficientDet-D0](configs/effdet/atss_effdet_d0.py) |    3.83    |    2.32   |     33.8     |          33.5         |
+|                           Model                          |                                                  Weight                                                  | Params (M) | FLOPs (G) | COCO-val mAP | Original COCO-val mAP |
+|:--------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|:----------:|:---------:|:------------:|:---------------------:|
+| [ATSS-EfficientDet-D0](configs/effdet/atss_effdet_d0.py) | [atss_effdet_d0.pth](https://drive.google.com/file/d/1sPviqiKxEXsLdtj94LmLmCNQKIfTBy7M/view?usp=sharing) |    3.83    |    2.32   |     33.8     |          33.5         |
+| [ATSS-EfficientDet-D1](configs/effdet/atss_effdet_d1.py) |                                                                                                          |    6.56    |    5.65   |              |          39.1         |
 
 
 ## Installation
