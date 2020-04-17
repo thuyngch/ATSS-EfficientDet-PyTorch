@@ -27,7 +27,7 @@ if __name__ == "__main__":
 	# Define
 	threshold = 0.3
 	config = "configs/effdet/atss_effdet_d0.py"
-	checkpoint = "work_dirs/atss_effdet_d0/latest.pth"
+	checkpoint = "work_dirs/atss_effdet_d0/atss_effdet_d0.pth"
 
 	out_dir = "demo/atss_effdet_d0"
 	img_files = sorted(glob("demo/images/*.jpg"))
