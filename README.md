@@ -57,6 +57,31 @@ Please refer to the official guildeline of [mmdetection](https://github.com/open
   ```
 
 
+## Tips for training on a custom dataset
+
+  - Assume your custom dataset has 10 (foreground) classes (and 1 background class), the ```num_classes``` should be 11:
+  ```
+	bbox_head=dict(
+		type='ATSSEffDetHead',
+		num_classes=81,
+    ...
+	),
+  ```
+
+  - Load the released weights as the pretraining:
+  ```
+  load_from = "work_dirs/atss_effdet_d0.pth"
+  ```
+
+  - Learning rate vs. batchsize and number of GPUs:
+  ```
+  lr_start = (batchsize * GPUs) / 16 * (1e-2)
+  lr_end = lr_start / 100
+  ```
+
+  - Number of epochs: The original config file takes 300 epochs to finalize a cosine learning-rate schedule. If you want to train a custom dataset, you should set a smaller number of epochs.
+
+
 ## References
 
 * Two papers:
