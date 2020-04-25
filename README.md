@@ -63,7 +63,7 @@ Please refer to the official guildeline of [mmdetection](https://github.com/open
   ```
 	bbox_head=dict(
 		type='ATSSEffDetHead',
-		num_classes=81,
+		num_classes=11,
     ...
 	),
   ```
