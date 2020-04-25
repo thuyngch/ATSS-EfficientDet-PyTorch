@@ -14,7 +14,7 @@ This repository is folked from [mmdetection](https://github.com/open-mmlab/mmdet
 
 There are more applications using Deep Learning in Computer Vision like Image Classification, Object Detection, and Semantic Segmentation. However, Deep Learning models, for example CNN, are too slow. Therefore, more effort is paid in order to make these models running faster.
 
-This work was activated by the [EfficientDet-family networks](https://arxiv.org/pdf/1911.09070.pdf) in Object Detection, published by Google team, which consume small GFLOPs without accuracy compensation. Besdies, [ATSS](https://arxiv.org/pdf/1912.02424.pdf) is a sampling method for Anchor-based architectures (e.g., RetinaNet), aiming at boosting the detection accuracy with only single anchor at each location.
+This work was activated by the [EfficientDet-family networks](https://arxiv.org/pdf/1911.09070.pdf) in Object Detection, published by Google team, which consume small GFLOPs without accuracy compensation. Besides, [ATSS](https://arxiv.org/pdf/1912.02424.pdf) is a sampling method for Anchor-based architectures (e.g., RetinaNet), aiming at boosting the detection accuracy with only single anchor at each location.
 
 This repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) and tries to:
   - reimplement EfficientDet in PyTorch
