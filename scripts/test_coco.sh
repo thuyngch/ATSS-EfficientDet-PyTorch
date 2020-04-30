@@ -3,8 +3,8 @@ set -e
 
 CONFIG_FILE='configs/effdet/atss_effdet_d0.py'
 WORK_DIR='work_dirs/atss_effdet_d0'
-CHECKPOINT_FILE="${WORK_DIR}/latest.pth"
-RESULT_FILE="${WORK_DIR}/latest.pkl"
+CHECKPOINT_FILE="${WORK_DIR}/atss_effdet_d0.pth"
+RESULT_FILE="${WORK_DIR}/atss_effdet_d0.pkl"
 
 GPUS=2
 export CUDA_VISIBLE_DEVICES=2

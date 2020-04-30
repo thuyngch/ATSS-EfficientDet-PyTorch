@@ -5,7 +5,7 @@ imgs_per_gpu = 32
 lr_start = 8e-2
 lr_end = 1e-4
 warmup_iters = 917
-warmup_ratio = 1e-5
+warmup_ratio = 1/3
 weight_decay = 4e-5
 
 log_interval = 50
@@ -28,7 +28,7 @@ test_ann_file = data_root + 'annotations/instances_val2017.json'
 
 # Model
 conv_cfg = dict(type='ConvDWS')
-norm_cfg = dict(type='SyncBN', eps=1e-3)
+norm_cfg = dict(type='SyncBN')
 act_cfg = dict(type='Swish')
 
 load_from = None
